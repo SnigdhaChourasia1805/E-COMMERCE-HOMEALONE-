@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node backend/seeder.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cloudinary/url-gen": "^1.21.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.9",
+    "react-redux": "^9.2.0",
+    "streamifier": "^0.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
